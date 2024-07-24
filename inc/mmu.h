@@ -54,7 +54,7 @@
 #define PTXSHIFT	12		// offset of PTX in a linear address
 #define PDXSHIFT	22		// offset of PDX in a linear address
 
-// Page table/directory entry flags.
+// Page table/directory entry flags. //通过部分有效位来设置权限等功能
 #define PTE_P		0x001	// Present
 #define PTE_W		0x002	// Writeable
 #define PTE_U		0x004	// User
